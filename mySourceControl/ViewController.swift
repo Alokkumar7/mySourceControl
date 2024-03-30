@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        myLbl.text = "Button Pressed"
+        print("my xcode 12 branch")
         // Do any additional setup after loading the view.
     }
 
