@@ -33,6 +33,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lN5-dl-Csi"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -44,6 +47,9 @@
                             <constraint firstItem="yDo-p9-TZP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="117" id="lBc-SM-gln"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myLbl" destination="yDo-p9-TZP" id="xye-Hc-TXY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
